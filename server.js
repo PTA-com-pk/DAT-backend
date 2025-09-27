@@ -66,8 +66,6 @@ app.use(cors({
     // Allow requests from Chrome extensions and localhost
     const allowedOrigins = [
       'chrome-extension://*',
-      'http://localhost:*',
-      'http://127.0.0.1:*'
     ];
     
     // Allow requests with no origin (like mobile apps or curl requests)
