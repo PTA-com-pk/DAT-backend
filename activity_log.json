@@ -1,6 +1,115 @@
 {
   "activities": [
     {
+      "id": "7c4a07ac-9753-4d7f-b45b-0622e4de11d5",
+      "timestamp": "2025-10-01T15:55:44.235Z",
+      "userKey": "user1234",
+      "userName": "John Doe",
+      "userEmail": "john@example.com",
+      "action": "cookie_access",
+      "details": {
+        "domain": "all",
+        "ip": "::1",
+        "userAgent": "curl/8.5.0",
+        "location": "Backend API",
+        "cookieCount": 25
+      },
+      "ip": "::1",
+      "userAgent": "curl/8.5.0",
+      "location": "Backend API",
+      "geolocation": null
+    },
+    {
+      "id": "b584f5b0-5aeb-4529-a4ac-5181dd35932f",
+      "timestamp": "2025-10-01T15:55:43.651Z",
+      "userKey": "user1234",
+      "userName": "John Doe",
+      "userEmail": "john@example.com",
+      "action": "authentication_check",
+      "details": {
+        "ip": "::1",
+        "userAgent": "curl/8.5.0",
+        "location": "Backend API"
+      },
+      "ip": "::1",
+      "userAgent": "curl/8.5.0",
+      "location": "Backend API",
+      "geolocation": null
+    },
+    {
+      "id": "82383b40-5e2f-4039-90b7-f6b5ed94dac6",
+      "timestamp": "2025-09-27T19:19:07.691Z",
+      "userKey": "user1234",
+      "userName": "John Doe",
+      "userEmail": "john@example.com",
+      "action": "test_activity",
+      "details": {
+        "test": true,
+        "ip": "::1",
+        "userAgent": "curl/8.5.0",
+        "location": "Chrome Extension"
+      },
+      "ip": "::1",
+      "userAgent": "curl/8.5.0",
+      "location": "Chrome Extension",
+      "geolocation": null
+    },
+    {
+      "id": "ecaa67a8-cd64-41b5-8f1f-7674effcd8e6",
+      "timestamp": "2025-09-27T19:19:05.036Z",
+      "userKey": "user1234",
+      "userName": "John Doe",
+      "userEmail": "john@example.com",
+      "action": "cookie_capture",
+      "details": {
+        "domain": "dat.com",
+        "cookieCount": 0,
+        "ip": "::1",
+        "userAgent": "curl/8.5.0",
+        "location": "Chrome Extension"
+      },
+      "ip": "::1",
+      "userAgent": "curl/8.5.0",
+      "location": "Chrome Extension",
+      "geolocation": null
+    },
+    {
+      "id": "16871afc-df66-47b2-8eed-3d502a61cbe2",
+      "timestamp": "2025-09-27T19:19:02.481Z",
+      "userKey": "user1234",
+      "userName": "John Doe",
+      "userEmail": "john@example.com",
+      "action": "cookie_access",
+      "details": {
+        "domain": "dat.com",
+        "ip": "::1",
+        "userAgent": "curl/8.5.0",
+        "location": "Backend API",
+        "cookieCount": 25
+      },
+      "ip": "::1",
+      "userAgent": "curl/8.5.0",
+      "location": "Backend API",
+      "geolocation": null
+    },
+    {
+      "id": "898e16b7-21d7-4abc-9b0a-de7e359c0b13",
+      "timestamp": "2025-09-27T19:18:59.965Z",
+      "userKey": "user1234",
+      "userName": "John Doe",
+      "userEmail": "john@example.com",
+      "action": "authentication_check",
+      "details": {
+        "ip": "::1",
+        "userAgent": "curl/8.5.0",
+        "location": "Backend API"
+      },
+      "ip": "::1",
+      "userAgent": "curl/8.5.0",
+      "location": "Backend API",
+      "geolocation": null
+    },
+    {
       "id": "06b63bf6-6041-4202-b695-61c6982eab8d",
       "timestamp": "2025-09-27T17:48:30.650Z",
       "userKey": "user1234",
